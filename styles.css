@@ -1,0 +1,124 @@
+.header {
+    background-color: rgb(38, 38, 97);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+.top-bar {
+    border: 1px white;
+    display: flex;
+    padding: 10px;
+    width: auto;
+    justify-content: space-between;
+    
+}
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.join   {
+    font-size: 36px;
+}
+.header-body {
+    display: flex;
+
+    height: 300px;
+    justify-content: center;
+    padding: 64px;
+    
+}
+.header-body-left {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+    padding: 20px;
+}
+.button-1 {
+    color: wheat;
+    border-radius: 25px;
+    background-color: rgb(67, 67, 124);
+    width: 150px;
+    
+}
+.header-body-right {
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(67, 67, 87);
+
+}
+
+.middle {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.header-2 {
+    display: flex;
+    justify-content:center ;
+    padding: 24px;
+    font-size: 24px;
+}
+.pics {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 65px;
+    gap: 24px;
+
+}
+.dog {
+
+    align-items: flex-end;
+    text-align: center;
+}
+.middle-icon {
+    border-radius: 25px;
+    width: 100px;
+    height: auto;
+}
+
+.bottom {
+    background-color: rgb(167, 167, 167);
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prayer {
+    width: 500px;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-header  {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    display: flex;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 255, 255, 0.233);
+    gap: 50px;
+    justify-content: space-between;
+}
